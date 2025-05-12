@@ -1,0 +1,31 @@
+{
+  "name": "ziara-app",
+  "version": "1.0.0",
+  "description": "Desarrollo de proyecto Ziara Barber App En Node.Js",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holguinLab/node-ziara.git"
+  },
+  "author": "holguin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holguinLab/node-ziara/issues"
+  },
+  "homepage": "https://github.com/holguinLab/node-ziara#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2",
+    "router": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
